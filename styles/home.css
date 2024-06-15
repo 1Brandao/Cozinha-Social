@@ -1,4 +1,15 @@
+/*Variáveis de cores */
+:root {
+  --pinheiro-suico: #025940;
+  --verde-flourescente: #03a64a;
+  --caribbean-green: #04bf8a;
+  --mosque: #026873;
+  --teal-blue: #024059;
+  --riptide: #98e8c2;
+  --navbar-color: #1a1d1c;
+}
+
 .navbar-container {
-  background-color: #1a1d1c;
+  background-color: var(--navbar-color);
   height: 80px;
 }

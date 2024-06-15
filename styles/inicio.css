@@ -1,0 +1,157 @@
+/* styles.css */
+
+/* Resetando margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo da navbar */
+.navbar {
+    position: fixed; /* Fixa a navbar no topo */
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    z-index: 1000; /* Garante que a navbar esteja sobreposta */
+    display: flex; /* Usa Flexbox para alinhar os itens */
+    justify-content: space-between; /* Espaço entre os itens */
+    padding: 10px 20px; /* Adiciona padding */
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-item a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Efeito de hover */
+}
+
+/* Estilo da logo */
+.navbar ul li.logo {
+    margin-left: auto; /* Empurra a logo para a direita */
+}
+
+.navbar ul li.logo a img {
+    height: 40px; /* Define a altura da logo */
+    width: auto; /* Mantém a proporção da logo */
+}
+
+/* Estilo da imagem de fundo */
+.hero-image {
+    width: 100%;
+    height: 43vh; /* Altura automática para manter a proporção */
+    padding-top: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; /* Cobre toda a área sem distorcer a imagem */
+    padding-top: 0;
+}
+
+.image-central {
+    display: block; /* Garante que a margem automática funcione */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line-height{
+    line-height: 35px;
+}
+
+/* Estilo do conteúdo */
+.span-green{
+    color: #026873;
+    
+}
+
+.destaque-linha-do-tempo{
+    color: #3aa9ab;
+    padding: 0px 20px 0px 20px;
+}
+
+.zero-margin{
+    margin-bottom: 0px;
+    margin-left: 29px;
+}
+
+.content {
+    padding: 0px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.content h1 {
+    font-size: 2.2rem;
+    color: #3aa9ab;
+    margin-bottom: 20px;
+}
+
+.content h1 span{
+    font-size: 2rem;
+    color: #9B9797;
+    margin-bottom: 20px;
+}
+
+.content blockquote {
+    font-size: 1.2em;
+    color: #3aa9ab;
+    width: 100vh;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 5px solid #3aa9ab;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.6;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .contact, footer .social-media {
+    margin: 10px 0;
+}
+
+footer .contact h2, footer .social-media h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+
+footer a img {
+    height: 30px;
+    margin: 0 10px;
+}
