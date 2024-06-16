@@ -155,6 +155,13 @@ body {
   box-shadow: 0 4px 8px var(--shadow-color);
 }
 
+.title-second h2 {
+  font-size: 2.2rem;
+  line-height: 1.2;
+  color: #3aa9ab;
+  margin-bottom: 20px;
+}
+
 .title h1 {
   font-size: 2.2rem;
   line-height: 1.2;
