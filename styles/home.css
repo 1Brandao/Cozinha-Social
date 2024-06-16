@@ -117,6 +117,12 @@ body {
   margin-right: 35px;
 }
 
+.article-centralize{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .texto {
   margin-left: 35px;
   width: 80%;
