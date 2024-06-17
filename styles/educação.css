@@ -177,6 +177,11 @@ body {
   line-height: 1.6;
 }
 
+.indent {
+  padding-left: 1px; /* Adiciona espaço antes da frase */
+  display: inline-block; /* Garante que o padding seja aplicado corretamente */
+}
+
 .san-imagem {
   display: block;
   align-items: center;
