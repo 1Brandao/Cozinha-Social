@@ -125,20 +125,25 @@ body {
 }
 
 .quality {
+  background-image: url(/Cozinha/Cozinha-Social/public/assets/1968650.jpg);
+  border-radius: 20px;
+  background-size: 50%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Cor branca com 50% de transparência */
+  background-blend-mode: overlay; /* Combinar a cor de fundo e a imagem */
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .quality img {
+  padding: 10px;
   width: 350px;
   height: auto;
-}
-
-.quality #image1 {
-  margin-bottom: 340px;
-  position: absolute;
 }
 
 .texto {
@@ -146,9 +151,15 @@ body {
   width: 80%;
 }
 
+.texto p a,
 .texto span {
   color: #3aa9ab;
   font-weight: bold;
+}
+
+.texto p a:hover,
+.texto span:hover {
+  color: #4be3e6;
 }
 
 .restaurantes {
@@ -270,15 +281,18 @@ body {
 /* Imagem Principal */
 
 .san-image {
-  display: block;
+  display: flex;
   margin: 2rem auto;
   box-shadow: 0 4px 8px var(--shadow-color);
   background-color: #fff;
-  width: 70%;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
 }
 
 .san-image img {
-  max-width: 100%;
+  padding: 20px;
+  width: 100%;
   height: auto;
   display: block;
   margin: 0 auto 20px auto;
@@ -294,6 +308,7 @@ body {
 
 .title h1 {
   font-size: 3rem;
+  line-height: 1.1;
   color: var(--primary-color);
   margin-bottom: 20px;
 }
@@ -307,6 +322,7 @@ body {
 .title p {
   margin-bottom: 20px;
   line-height: 1.6;
+  text-indent: 20px;
 }
 
 .frase-curta {
@@ -406,6 +422,11 @@ body {
 
 .footer-contacts {
   border-right: none;
+}
+
+.footer-copyright p:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 /* Botão Back to Top */
