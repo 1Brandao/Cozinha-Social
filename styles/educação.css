@@ -191,6 +191,7 @@ body {
 .san-imagem img {
   max-width: 100%;
   height: auto;
+  margin: 0;
 }
 /* Footer Styles */
 .footer-container {
