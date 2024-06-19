@@ -88,9 +88,13 @@ body {
 .main-content {
   margin: 0 auto;
   padding: 2rem;
-  margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
+}
+.article-centralize{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .text {
   margin-left: 35px;
@@ -103,6 +107,7 @@ body {
   padding-top: 20px;
   color: #03A64A;
 }
+
 .sub-title{
   text-align: center;
   font-size: 1.5rem;
@@ -110,7 +115,7 @@ body {
   color: #024059;
 }
 .title{
-    padding: 2rem;
+    padding: rem;
     background-color: #fff;
     margin-top: 20px;
     box-shadow: 0 4px 8px var(--shadow-color);
@@ -150,26 +155,28 @@ body {
   background-color: #fff;
   margin-top: 20px;
   box-shadow: 0 4px 8px var(--shadow-color);
+  padding-bottom: 20px;
 }
 
 .title h1 {
   font-size: 3rem;
+  margin-bottom: 20px;
   color: #03A64A;
-  /*margin-bottom: 20px;*/
 }
 
 .title h1 span {
   font-size: 3rem;
   color: #9b9797;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 
-.title blockquote {
+.blockquote blockquote {
   font-size: 1.2em;
   color: #3aa9ab;
   margin: 20px 0;
   padding-left: 20px;
-  border-left: 5px solid #3aa9ab;
+  padding-bottom: 20px;
+  
 }
 
 .title p {
@@ -305,4 +312,5 @@ body.scroll-top #back-to-top {
   .footer-container > div:last-child {
     border-bottom: none;
   }
+  
 }
