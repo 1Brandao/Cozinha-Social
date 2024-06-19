@@ -110,6 +110,15 @@
     width: auto; /* Mantém a proporção da logo */
   }
   
+  .link-azul {
+    color: blue; /* Define a cor do link como azul */
+    text-decoration: none; /* Remove a sublinha do link, opcional */
+  }
+  
+  .link-azul:hover, .link-azul:focus, .link-azul:visited {
+    color: blue; /* Garante que o link continue azul em todos os estados */
+  }
+  
   .main-content {
     margin: 0 auto;
     padding: 2rem;

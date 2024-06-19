@@ -89,13 +89,9 @@ body {
 .main-content {
   margin: 0 auto;
   padding: 2rem;
+  margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
-}
-.article-centralize{ 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .text {
   margin-left: 35px;
@@ -107,30 +103,17 @@ body {
   padding-top: 20px;
   color: #03a64a;
 }
-<<<<<<< HEAD
-
-.sub-title{
-=======
 .sub-title {
->>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
   text-align: center;
   font-size: 1.5rem;
   padding-top: 20px;
   color: #024059;
 }
-<<<<<<< HEAD
-.title{
-    padding: rem;
-    background-color: #fff;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px var(--shadow-color);
-=======
 .title {
   padding: 2rem;
   background-color: #fff;
   margin-top: 20px;
   box-shadow: 0 4px 8px var(--shadow-color);
->>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
 }
 .hero-image {
   width: 100%;
@@ -167,33 +150,26 @@ body {
   background-color: #fff;
   margin-top: 20px;
   box-shadow: 0 4px 8px var(--shadow-color);
-  padding-bottom: 20px;
 }
 
 .title h1 {
   font-size: 3rem;
-<<<<<<< HEAD
-  margin-bottom: 20px;
-  color: #03A64A;
-=======
   color: #03a64a;
   /*margin-bottom: 20px;*/
->>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
 }
 
 .title h1 span {
   font-size: 3rem;
   color: #9b9797;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 
-.blockquote blockquote {
+.title blockquote {
   font-size: 1.2em;
   color: #3aa9ab;
   margin: 20px 0;
   padding-left: 20px;
-  padding-bottom: 20px;
-  
+  border-left: 5px solid #3aa9ab;
 }
 
 .title p {
@@ -335,5 +311,4 @@ body.scroll-top #back-to-top {
   .footer-container > div:last-child {
     border-bottom: none;
   }
-  
 }
