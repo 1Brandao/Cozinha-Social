@@ -1,6 +1,7 @@
-
 /* General Styles */
 body {
+  display: flex;
+  flex-direction: column;
   color: var(--text-color);
   background-color: #f4f4f4;
   line-height: 1.6;
@@ -43,7 +44,7 @@ body {
 
 .nav-item:hover a,
 .nav-item:focus a {
-  border-bottom: 2px solid #03A64A; /* Efeito de hover */
+  border-bottom: 2px solid #03a64a; /* Efeito de hover */
 }
 
 .dropdown-content {
@@ -68,7 +69,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #03A64A;
+  background-color: #03a64a;
 }
 
 .burger-menu {
@@ -100,25 +101,36 @@ body {
   margin-left: 35px;
   width: 90%;
   text-align: center;
-  
 }
-.intertitulo{
+.intertitulo {
   text-align: center;
   padding-top: 20px;
-  color: #03A64A;
+  color: #03a64a;
 }
+<<<<<<< HEAD
 
 .sub-title{
+=======
+.sub-title {
+>>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
   text-align: center;
   font-size: 1.5rem;
   padding-top: 20px;
   color: #024059;
 }
+<<<<<<< HEAD
 .title{
     padding: rem;
     background-color: #fff;
     margin-top: 20px;
     box-shadow: 0 4px 8px var(--shadow-color);
+=======
+.title {
+  padding: 2rem;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+>>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
 }
 .hero-image {
   width: 100%;
@@ -160,8 +172,13 @@ body {
 
 .title h1 {
   font-size: 3rem;
+<<<<<<< HEAD
   margin-bottom: 20px;
   color: #03A64A;
+=======
+  color: #03a64a;
+  /*margin-bottom: 20px;*/
+>>>>>>> 8179128d00b169b6d38648576cc6fec422ac7cde
 }
 
 .title h1 span {
@@ -184,6 +201,11 @@ body {
   line-height: 1.6;
 }
 
+.indent {
+  padding-left: 1px; /* Adiciona espaço antes da frase */
+  display: inline-block; /* Garante que o padding seja aplicado corretamente */
+}
+
 .san-imagem {
   display: block;
   align-items: center;
@@ -193,6 +215,7 @@ body {
 .san-imagem img {
   max-width: 100%;
   height: auto;
+  margin: 0;
 }
 /* Footer Styles */
 .footer-container {
@@ -274,7 +297,7 @@ body {
 }
 
 #back-to-top:hover {
-  background-color: #04BF8A;
+  background-color: #04bf8a;
   transform: scale(1.1);
 }
 
