@@ -87,6 +87,7 @@ body {
 }
 
 .main-content {
+  transition: .3s ease;
   margin: 0 auto;
   padding: 2rem;
   margin-top: 35px;

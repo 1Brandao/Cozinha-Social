@@ -115,11 +115,14 @@ body {
   text-decoration: none; /* Remove a sublinha do link, opcional */
 }
 
-.link-azul:hover, .link-azul:focus, .link-azul:visited {
+.link-azul:hover,
+.link-azul:focus,
+.link-azul:visited {
   color: blue; /* Garante que o link continue azul em todos os estados */
 }
 
 .main-content {
+  transition: 0.3s ease;
   margin: 0 auto;
   padding: 2rem;
   margin-left: 35px;
