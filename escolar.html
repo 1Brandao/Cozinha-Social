@@ -19,10 +19,10 @@
   <body>
     <header id="home">
       <nav class="navbar">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="burger-menu">&#9776;</label>
         <ul class="nav-list">
-          <li class="nav-item">
-            <a href="index.html">Início</a>
-          </li>
+          <li class="nav-item"><a href="index.html">Início</a></li>
           <li class="nav-item">
             <a href="restaurante.html">Restaurante Popular</a>
           </li>
@@ -33,7 +33,7 @@
             <a href="escolar.html">Alimentação Escolar</a>
           </li>
           <li class="nav-item">
-            <a href="BancodeAlimentos.html">Banco de Alimentos</a>
+            <a href="banco-alimentos.html">Banco de Alimentos</a>
           </li>
           <li class="nav-item">
             <a href="educacao.html">Educação Alimentar</a>
@@ -41,25 +41,76 @@
           <li class="nav-item dropdown">
             <a href="#">Mais</a>
             <ul class="dropdown-content">
-              <li>
-                <a href="sobre.html">Sobre</a>
-              </li>
-              <li>
-                <a href="panificadora.html">Panificadora Social</a>
-              </li>
-              <li>
-                <a href="abrigos.html">Residência Inclusiva</a>
-              </li>
-              <li class="nav-item">
-                <a href="caisan.html">COMSEA/CAISAN</a>
-              </li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="panificadora.html">Panificadora Social</a></li>
+              <li><a href="abrigos.html">Residência Inclusiva</a></li>
+              <li><a href="caisan.html">COMSEA/CAISAN</a></li>
               <li><a href="#contact">Contato</a></li>
             </ul>
           </li>
-          <li class="nav-item burger-menu">
-            <a href="#">&#9776;</a>
-          </li>
         </ul>
+        <div class="sidebar">
+          <ul>
+            <li>
+              <a href="index.html"><i class="fa-solid fa-house"></i> Início</a>
+            </li>
+            <li>
+              <a href="restaurante.html"
+                ><i class="fa-solid fa-utensils"></i> Restaurante <br />
+                Popular</a
+              >
+            </li>
+            <li>
+              <a href="agricultura.html">
+                <i class="fa-solid fa-seedling"></i> Agricultura <br />
+                Familiar</a
+              >
+            </li>
+            <li>
+              <a href="escolar.html"
+                ><i class="fa-solid fa-apple-whole"></i> Alimentação <br />
+                Escolar</a
+              >
+            </li>
+            <li>
+              <a href="banco-alimentos.html"
+                ><i class="fa-solid fa-piggy-bank"></i> Banco de
+                <br />
+                Alimentos</a
+              >
+            </li>
+            <li>
+              <a href="educacao.html"
+                ><i class="fa-solid fa-book"></i> Educação <br />Alimentar</a
+              >
+            </li>
+            <li>
+              <a href="sobre.html"
+                ><i class="fa-solid fa-magnifying-glass"></i> Sobre</a
+              >
+            </li>
+            <li>
+              <a href="panificadora.html"
+                ><i class="fa-solid fa-bread-slice"></i> Panificadora
+                <br />Social</a
+              >
+            </li>
+            <li>
+              <a href="abrigos.html"
+                ><i class="fa-solid fa-hand-holding-heart"></i> Residência
+                <br />Inclusiva</a
+              >
+            </li>
+            <li>
+              <a href="caisan.html"
+                ><i class="fa-regular fa-handshake"></i> COMSEA/CAISAN</a
+              >
+            </li>
+            <li>
+              <a href="#contact"><i class="fa-solid fa-phone"></i> Contato</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <section class="hero-image">
         <img
@@ -202,7 +253,14 @@
                 para o estudante que possam contribuir para sua
                 <strong>aprendizagem</strong>,
                 <strong>rendimento escolar</strong> e
-                <strong>desenvolvimento biopsicossocial</strong>. Além disso, as
+                <strong>desenvolvimento biopsicossocial</strong>.</p>
+                <section class="san-mobile">
+                  <img
+                    src="./public/assets/almoco-e-materiais-escolares.jpg"
+                    alt="Foto de lanche e material escolar"
+                  />
+                </section>
+                <p>Além disso, as
                 ações de educação alimentar realizadas para as crianças
                 contribuem para a formação de hábitos alimentares saudáveis.
                 Todas as refeições são produzidas respeitando os princípios e
@@ -226,7 +284,7 @@
             <section class="san-image">
               <img
                 src="./public/assets/almoco-e-materiais-escolares.jpg"
-                alt="Foto de um prato de comida no Restaurante Popular"
+                alt="Foto de lanche e material escolar"
               />
             </section>
           </section>
@@ -239,7 +297,7 @@
           </section>
           <br />
           <section class="quality">
-            <img id="image1" src="./public/assets/menina-tendo-almoco-ligado-tabela.png" alt="" />
+            <img id="image1" src="./public/assets/menina-escolar.png" alt="" />
           </section>
           <section class="texto">
             <h3 class="sub-title">• Quem pode Acessar?</h3>
@@ -249,7 +307,22 @@
               incentivada com vista ao atendimento das diretrizes estabelecidas
               na Lei Federal <a href="#">nº 11947 de 16 de junho de 2009.</a>
             </p>
-            <img class="rules" src="./public/assets/leis-Photoroom.png" alt="">
+            <div class="rules">
+              <div class="img-box">
+                <img src="./public/assets/leis-Photoroom.png" alt="Imagem de um martelo representando leis">
+              </div>
+              <div class="content-box">
+                <a target="_blank" href="https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=11947&ano=2009&ato=359AzaE90dVpWTc00#:~:text=DISP%C3%95E%20SOBRE%20O%20ATENDIMENTO%20DA,AGOSTO%20DE%202001%2C%20E%20A"><button class="read-more">Veja mais</button></a>
+              </div>
+            </div>
+            <div class="rules-mobile">
+              <div class="img-mobile">
+                <img src="./public/assets/leis-Photoroom.png" alt="Imagem de um martelo representando leis">
+              </div>
+              <div class="content-box">
+                <a target="_blank" href="https://legislacao.presidencia.gov.br/atos/?tipo=LEI&numero=11947&ano=2009&ato=359AzaE90dVpWTc00#:~:text=DISP%C3%95E%20SOBRE%20O%20ATENDIMENTO%20DA,AGOSTO%20DE%202001%2C%20E%20A"><button class="read-more">Veja mais</button></a>
+              </div>
+            </div>
           </section>
           <section class="texto">
 
