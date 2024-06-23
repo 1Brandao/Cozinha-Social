@@ -651,40 +651,40 @@ body.scroll-top #back-to-top {
     box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.15);
   }
 
+  .rules {
+    display: none;
+  }
+
   .rules-mobile {
     flex-direction: column;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 40px;
     border-radius: 20px;
     border: 3.5px solid;
-    width: 300px;
-    height: 250px;
+    width: 150px;
+    height: 125px;
     box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.15);
     position: relative;
     transition: 0.6s;
     overflow: hidden;
   }
 
-  .rules {
-    display: none;
-  }
-
   .rules-mobile:hover {
-    height: 300px;
+    height: 150px;
   }
 
   .rules-mobile .img-mobile {
     position: absolute;
-    width: 300px;
+    width: 150px;
     height: auto;
     top: 0px;
     transition: 0.6s;
   }
 
   .rules-mobile:hover .img-mobile {
-    top: -80px;
+    top: -40px;
     scale: 0.9;
   }
 
@@ -700,11 +700,11 @@ body.scroll-top #back-to-top {
     flex-direction: column;
     gap: 10px;
     position: absolute;
-    top: 400px;
+    top: 200px;
     width: 100%;
     padding: 0px 10px;
     justify-content: center;
-    height: 30px;
+    height: 15px;
     overflow: hidden;
     transition: 0.6s;
   }
@@ -712,12 +712,12 @@ body.scroll-top #back-to-top {
   .rules-mobile .content-box .read-more {
     justify-content: center;
     display: flex;
-    padding: 20px 20px;
-    border-radius: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
     border: none;
     color: white;
     background-color: #3aa9ab;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
@@ -725,8 +725,8 @@ body.scroll-top #back-to-top {
 
   .rules-mobile:hover .content-box {
     transition: 0.6s;
-    top: 100px;
-    height: 250px;
+    top: 50px;
+    height: 125px;
   }
 
   .quality {
