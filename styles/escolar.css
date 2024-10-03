@@ -169,7 +169,7 @@ body {
 }
 
 .quality {
-  background-image: url(/public/assets/escolar-bg.jpg);
+  background-image: url(/source/assets/escolar-bg.jpg);
   border-radius: 20px;
   background-size: 50%;
   background-color: rgba(
